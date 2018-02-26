@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="SelectPositionCell" customModule="FormulaBuilderCS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s5o-N7-i4e">
+                        <rect key="frame" x="16" y="11" width="260" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="251" image="Checkmark" translatesAutoresizingMaskIntoConstraints="NO" id="p7y-AC-NzK">
+                        <rect key="frame" x="291" y="17" width="13" height="10"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s5o-N7-i4e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="5a5-8w-6vU"/>
+                    <constraint firstItem="p7y-AC-NzK" firstAttribute="leading" secondItem="s5o-N7-i4e" secondAttribute="trailing" constant="15" id="IAE-TT-4sB"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="p7y-AC-NzK" secondAttribute="trailing" id="M9q-ne-yGg"/>
+                    <constraint firstItem="s5o-N7-i4e" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="TnL-RP-4xN"/>
+                    <constraint firstItem="p7y-AC-NzK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="ksK-ig-plC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="checkmarkImage" destination="p7y-AC-NzK" id="I36-53-BHF"/>
+                <outlet property="titleLabel" destination="s5o-N7-i4e" id="aOS-OB-yU7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Checkmark" width="13" height="10"/>
+    </resources>
+</document>

@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF0CC85F203EDF1F00D6FF2D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CC85E203EDF1F00D6FF2D /* Person.swift */; };
+		AF0CC861203EDF2D00D6FF2D /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CC860203EDF2D00D6FF2D /* Position.swift */; };
+		AF2A7741203AE6D10011BEAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7740203AE6D10011BEAF /* AppDelegate.swift */; };
+		AF2A7748203AE6D10011BEAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7747203AE6D10011BEAF /* Assets.xcassets */; };
+		AF2A774B203AE6D10011BEAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7749203AE6D10011BEAF /* LaunchScreen.storyboard */; };
+		AF2A7757203AE8FE0011BEAF /* EditTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7755203AE8FE0011BEAF /* EditTeamsViewController.swift */; };
+		AF2A7758203AE8FE0011BEAF /* EditTeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7756203AE8FE0011BEAF /* EditTeamsViewController.xib */; };
+		AF2A775A203AE9C40011BEAF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7759203AE9C40011BEAF /* Team.swift */; };
+		AF2A775D203AEA7C0011BEAF /* SelectPositionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A775B203AEA7C0011BEAF /* SelectPositionViewController.xib */; };
+		AF2A775E203AEA7C0011BEAF /* SelectPositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A775C203AEA7C0011BEAF /* SelectPositionViewController.swift */; };
+		AF2A7764203AEA850011BEAF /* EditPersonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A775F203AEA850011BEAF /* EditPersonCell.swift */; };
+		AF2A7765203AEA850011BEAF /* SelectPositionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7760203AEA850011BEAF /* SelectPositionCell.swift */; };
+		AF2A7766203AEA850011BEAF /* SelectPositionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7761203AEA850011BEAF /* SelectPositionCell.xib */; };
+		AF2A7767203AEA850011BEAF /* EditPersonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7762203AEA850011BEAF /* EditPersonCell.xib */; };
+		AF2A776C203AEE060011BEAF /* AddItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A776A203AEE060011BEAF /* AddItemCell.swift */; };
+		AF2A776D203AEE060011BEAF /* AddItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A776B203AEE060011BEAF /* AddItemCell.xib */; };
+		AF2A7770203AEEF70011BEAF /* UIColor+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A776F203AEEF70011BEAF /* UIColor+Ex.swift */; };
+		AF2A7772203AEFFC0011BEAF /* UIScreen_Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7771203AEFFC0011BEAF /* UIScreen_Ex.swift */; };
+		AF2A7775203B75880011BEAF /* ReadTeamsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7773203B75880011BEAF /* ReadTeamsViewController.swift */; };
+		AF2A7776203B75880011BEAF /* ReadTeamsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7774203B75880011BEAF /* ReadTeamsViewController.xib */; };
+		AF2A7779203B76530011BEAF /* ReadTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2A7777203B76520011BEAF /* ReadTeamCell.swift */; };
+		AF2A777A203B76530011BEAF /* ReadTeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF2A7778203B76530011BEAF /* ReadTeamCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF0CC85E203EDF1F00D6FF2D /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		AF0CC860203EDF2D00D6FF2D /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		AF2A773D203AE6D10011BEAF /* iOSContactsLikeTableViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSContactsLikeTableViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF2A7740203AE6D10011BEAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF2A7747203AE6D10011BEAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF2A774A203AE6D10011BEAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF2A774C203AE6D10011BEAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF2A7755203AE8FE0011BEAF /* EditTeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamsViewController.swift; sourceTree = "<group>"; };
+		AF2A7756203AE8FE0011BEAF /* EditTeamsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditTeamsViewController.xib; sourceTree = "<group>"; };
+		AF2A7759203AE9C40011BEAF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		AF2A775B203AEA7C0011BEAF /* SelectPositionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPositionViewController.xib; sourceTree = "<group>"; };
+		AF2A775C203AEA7C0011BEAF /* SelectPositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPositionViewController.swift; sourceTree = "<group>"; };
+		AF2A775F203AEA850011BEAF /* EditPersonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditPersonCell.swift; sourceTree = "<group>"; };
+		AF2A7760203AEA850011BEAF /* SelectPositionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectPositionCell.swift; sourceTree = "<group>"; };
+		AF2A7761203AEA850011BEAF /* SelectPositionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectPositionCell.xib; sourceTree = "<group>"; };
+		AF2A7762203AEA850011BEAF /* EditPersonCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditPersonCell.xib; sourceTree = "<group>"; };
+		AF2A776A203AEE060011BEAF /* AddItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemCell.swift; sourceTree = "<group>"; };
+		AF2A776B203AEE060011BEAF /* AddItemCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddItemCell.xib; sourceTree = "<group>"; };
+		AF2A776F203AEEF70011BEAF /* UIColor+Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ex.swift"; sourceTree = "<group>"; };
+		AF2A7771203AEFFC0011BEAF /* UIScreen_Ex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreen_Ex.swift; sourceTree = "<group>"; };
+		AF2A7773203B75880011BEAF /* ReadTeamsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadTeamsViewController.swift; sourceTree = "<group>"; };
+		AF2A7774203B75880011BEAF /* ReadTeamsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReadTeamsViewController.xib; sourceTree = "<group>"; };
+		AF2A7777203B76520011BEAF /* ReadTeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadTeamCell.swift; sourceTree = "<group>"; };
+		AF2A7778203B76530011BEAF /* ReadTeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadTeamCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2A773A203AE6D10011BEAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF2A7734203AE6D10011BEAF = {
+			isa = PBXGroup;
+			children = (
+				AF2A773F203AE6D10011BEAF /* iOSContactsLikeTableViewDemo */,
+				AF2A773E203AE6D10011BEAF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF2A773E203AE6D10011BEAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A773D203AE6D10011BEAF /* iOSContactsLikeTableViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF2A773F203AE6D10011BEAF /* iOSContactsLikeTableViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A776E203AEEDB0011BEAF /* Extensions */,
+				AF2A7753203AE86E0011BEAF /* Models */,
+				AF2A7752203AE8660011BEAF /* Views */,
+				AF2A7754203AE8B10011BEAF /* ViewControllers */,
+				AF2A7740203AE6D10011BEAF /* AppDelegate.swift */,
+				AF2A7747203AE6D10011BEAF /* Assets.xcassets */,
+				AF2A7749203AE6D10011BEAF /* LaunchScreen.storyboard */,
+				AF2A774C203AE6D10011BEAF /* Info.plist */,
+			);
+			path = iOSContactsLikeTableViewDemo;
+			sourceTree = "<group>";
+		};
+		AF2A7752203AE8660011BEAF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A7777203B76520011BEAF /* ReadTeamCell.swift */,
+				AF2A7778203B76530011BEAF /* ReadTeamCell.xib */,
+				AF2A775F203AEA850011BEAF /* EditPersonCell.swift */,
+				AF2A7762203AEA850011BEAF /* EditPersonCell.xib */,
+				AF2A776A203AEE060011BEAF /* AddItemCell.swift */,
+				AF2A776B203AEE060011BEAF /* AddItemCell.xib */,
+				AF2A7760203AEA850011BEAF /* SelectPositionCell.swift */,
+				AF2A7761203AEA850011BEAF /* SelectPositionCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF2A7753203AE86E0011BEAF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A7759203AE9C40011BEAF /* Team.swift */,
+				AF0CC85E203EDF1F00D6FF2D /* Person.swift */,
+				AF0CC860203EDF2D00D6FF2D /* Position.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AF2A7754203AE8B10011BEAF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A7755203AE8FE0011BEAF /* EditTeamsViewController.swift */,
+				AF2A7756203AE8FE0011BEAF /* EditTeamsViewController.xib */,
+				AF2A7773203B75880011BEAF /* ReadTeamsViewController.swift */,
+				AF2A7774203B75880011BEAF /* ReadTeamsViewController.xib */,
+				AF2A775C203AEA7C0011BEAF /* SelectPositionViewController.swift */,
+				AF2A775B203AEA7C0011BEAF /* SelectPositionViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AF2A776E203AEEDB0011BEAF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AF2A776F203AEEF70011BEAF /* UIColor+Ex.swift */,
+				AF2A7771203AEFFC0011BEAF /* UIScreen_Ex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF2A773C203AE6D10011BEAF /* iOSContactsLikeTableViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2A774F203AE6D10011BEAF /* Build configuration list for PBXNativeTarget "iOSContactsLikeTableViewDemo" */;
+			buildPhases = (
+				AF2A7739203AE6D10011BEAF /* Sources */,
+				AF2A773A203AE6D10011BEAF /* Frameworks */,
+				AF2A773B203AE6D10011BEAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSContactsLikeTableViewDemo;
+			productName = iOSContactsLikeTableViewDemo;
+			productReference = AF2A773D203AE6D10011BEAF /* iOSContactsLikeTableViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF2A7735203AE6D10011BEAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andrii Redko";
+				TargetAttributes = {
+					AF2A773C203AE6D10011BEAF = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF2A7738203AE6D10011BEAF /* Build configuration list for PBXProject "iOSContactsLikeTableViewDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF2A7734203AE6D10011BEAF;
+			productRefGroup = AF2A773E203AE6D10011BEAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF2A773C203AE6D10011BEAF /* iOSContactsLikeTableViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF2A773B203AE6D10011BEAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2A776D203AEE060011BEAF /* AddItemCell.xib in Resources */,
+				AF2A7776203B75880011BEAF /* ReadTeamsViewController.xib in Resources */,
+				AF2A777A203B76530011BEAF /* ReadTeamCell.xib in Resources */,
+				AF2A774B203AE6D10011BEAF /* LaunchScreen.storyboard in Resources */,
+				AF2A775D203AEA7C0011BEAF /* SelectPositionViewController.xib in Resources */,
+				AF2A7766203AEA850011BEAF /* SelectPositionCell.xib in Resources */,
+				AF2A7748203AE6D10011BEAF /* Assets.xcassets in Resources */,
+				AF2A7767203AEA850011BEAF /* EditPersonCell.xib in Resources */,
+				AF2A7758203AE8FE0011BEAF /* EditTeamsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF2A7739203AE6D10011BEAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF2A7772203AEFFC0011BEAF /* UIScreen_Ex.swift in Sources */,
+				AF2A775E203AEA7C0011BEAF /* SelectPositionViewController.swift in Sources */,
+				AF2A7765203AEA850011BEAF /* SelectPositionCell.swift in Sources */,
+				AF2A7770203AEEF70011BEAF /* UIColor+Ex.swift in Sources */,
+				AF2A7775203B75880011BEAF /* ReadTeamsViewController.swift in Sources */,
+				AF2A775A203AE9C40011BEAF /* Team.swift in Sources */,
+				AF0CC85F203EDF1F00D6FF2D /* Person.swift in Sources */,
+				AF0CC861203EDF2D00D6FF2D /* Position.swift in Sources */,
+				AF2A7757203AE8FE0011BEAF /* EditTeamsViewController.swift in Sources */,
+				AF2A7779203B76530011BEAF /* ReadTeamCell.swift in Sources */,
+				AF2A776C203AEE060011BEAF /* AddItemCell.swift in Sources */,
+				AF2A7764203AEA850011BEAF /* EditPersonCell.swift in Sources */,
+				AF2A7741203AE6D10011BEAF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF2A7749203AE6D10011BEAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF2A774A203AE6D10011BEAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF2A774D203AE6D10011BEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AF2A774E203AE6D10011BEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF2A7750203AE6D10011BEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4ZU86AQQ4;
+				INFOPLIST_FILE = iOSContactsLikeTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrumoneapp.iOSContactsLikeTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		AF2A7751203AE6D10011BEAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P4ZU86AQQ4;
+				INFOPLIST_FILE = iOSContactsLikeTableViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.scrumoneapp.iOSContactsLikeTableViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF2A7738203AE6D10011BEAF /* Build configuration list for PBXProject "iOSContactsLikeTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A774D203AE6D10011BEAF /* Debug */,
+				AF2A774E203AE6D10011BEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF2A774F203AE6D10011BEAF /* Build configuration list for PBXNativeTarget "iOSContactsLikeTableViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF2A7750203AE6D10011BEAF /* Debug */,
+				AF2A7751203AE6D10011BEAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF2A7735203AE6D10011BEAF /* Project object */;
+}
